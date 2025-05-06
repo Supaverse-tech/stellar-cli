@@ -146,41 +146,6 @@ Start interactive CLI mode. Presents a menu to choose any of the above commands:
 stellar interactive
 ```
 
----
-
-## Publishing to npm
-
-1. In your `package.json` set:
-   ```json
-   {
-     "name": "@supaverse/stellar-cli",
-     "publishConfig": { "access": "public" },
-     "bin": { "stellar": "./index.js" }
-   }
-   ```
-2. Log in and publish:
-   ```bash
-   npm login
-   npm publish
-   ```
-3. Users install with:
-   ```bash
-   npm install -g @supaverse/stellar-cli
-   ```
-
-The CLI command remains `stellar`.
-
----
-
-## Contributing
-
-1. Fork the repository  
-2. Create a feature branch (`git checkout -b my-feature`)  
-3. Commit and push your changes  
-4. Open a Pull Request  
-
----
-
 ## License
 
 ISC © Supaverse  

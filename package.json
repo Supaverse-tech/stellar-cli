@@ -5,6 +5,10 @@
   "bin": {
     "stellar": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Supaverse-tech/stellar-cli.git"
+  },
   "keywords": [],
   "author": "",
   "type": "commonjs",
