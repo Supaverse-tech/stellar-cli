@@ -1,0 +1,25 @@
+{
+  "name": "@supaverse/stellar-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "stellar": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "commonjs",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@stellar/stellar-sdk": "^13.3.0",
+    "commander": "^13.1.0",
+    "inquirer": "^8.2.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js",
+    "commands/"
+  ]
+}
